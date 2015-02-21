@@ -400,7 +400,7 @@ li.on a{
   .navBar ul {display: none;}
   .navBar {position: fixed; top: 0%; background-color: white;}
   .plantGroup .plant, .plantGroup .gap { width: 50%;}
-  .plantSection {height: 100%;}
+  .plantSection {height: 1460px; position: relative;}
 } 
 
 /* screen sizes between 1081px and 1260px */
