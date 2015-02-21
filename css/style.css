@@ -369,6 +369,7 @@ li.on a{
   .navBar ul {display: none;}
   .navBar {position: fixed; top: 0%;}
   .plantGroup .plant, .plantGroup .gap { width: 100%; height:auto; position: relative;}
+  .plantSection {height: 2175px; position: relative;}
 } 
 
 /* screen sizes between 481px and 768px  */
@@ -398,7 +399,7 @@ li.on a{
   .navBar ul {display: none;}
   .navBar {position: fixed; top: 0%; background-color: white;}
   .plantGroup .plant, .plantGroup .gap { width: 50%;}
-  .plantSection {height: 1000px;}
+  .plantSection {height: 100%;}
 } 
 
 /* screen sizes between 1081px and 1260px */

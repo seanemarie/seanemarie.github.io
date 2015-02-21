@@ -11,21 +11,25 @@
 
 <body>
 
+<!--this will get the width of the container-->
+<div id="container">
 
+	<!--nav bar is split into left and right side for styling purposes-->
 	<div class="navBar">
-			<ul class="leftSide navItems">
-				<li><a class="light" href="#lowLight">LOW LIGHT</a></li>
-				<li><a class="light" href="#medLight"> INDIRECT LIGHT</a></li>
-				<li><a class="light" href="#brightLight"> DIRECT LIGHT</a></li>
-			</ul>
-			<ul class="rightSide navItems">
-				<li class="view">View:</li>
-				<li><a><h6 class="filter" data-filter=".highMaintenance" href="">High Maintenance</h6></a></li>
-				<li><a><h6 class="filter" data-filter=".lowMaintenance" href="">Low Maintenance</h6></a></li>
-				<li><a><h6 class="filter" data-filter="all" href="">All Plants</h6></a></li>
-			</ul>
-			<i class="fa fa-bars fa-3x"></i>
+		<ul class="leftSide navItems">
+			<li><a class="light" href="#lowLight">LOW LIGHT</a></li>
+			<li><a class="light" href="#medLight"> INDIRECT LIGHT</a></li>
+			<li><a class="light" href="#brightLight"> DIRECT LIGHT</a></li>
+		</ul>
+		<ul class="rightSide navItems">
+			<li class="view">View:</li>
+			<li><a><h6 class="filter" data-filter=".highMaintenance" href="">High Maintenance</h6></a></li>
+			<li><a><h6 class="filter" data-filter=".lowMaintenance" href="">Low Maintenance</h6></a></li>
+			<li><a><h6 class="filter" data-filter="all" href="">All Plants</h6></a></li>
+		</ul>
+		<i class="fa fa-bars fa-3x"></i>
 	</div>
+	<!--this is the hero landing content, the backgroun image is fixed w/ parralax-->
 	<div id="hero_content_container column full">
 		<div id="hero_image">
 			<div class="parallax-window wrap" data-parallax="scroll" data-image-src="images/painted-pot-succulents.jpg">
@@ -37,12 +41,12 @@
 			</button>
 			</div>
 		</div>
-
 	</div>
 
+	<!--this wraps the rest of the content-->
 	<div id="main_container">
 
-<!---***********MAIN SECTION "ABOUT"***********-->
+		<!---***********MAIN SECTION "ABOUT"***********-->
 		<div id="intro" class="about column full">
 			<h3>Find plants that work in your home.<h3>
 			<h4>Choose your light levels:</h4>
@@ -51,12 +55,12 @@
 			<a class="light" href="#brightLight"><img class="aboutImg" src="images/bright-light-2.png"/></a>
 		</div>
 
-<!---***********PARALLAX SEPARATOR 1***********-->
+		<!---***********PARALLAX SEPARATOR 1***********-->
 		<div class="parallax-window sectionSeparator one column full" data-parallax="scroll" data-image-src="images/plant-icons-blue.png">
 			<h2>Low Light Plants</h2>
 		</div>
 
-<!---***********LOW LIGHT PLANTS***********-->
+		<!---***********LOW LIGHT PLANTS***********-->
 		<div id="lowLight" class="lowLight plantSection column full">
 			<h5>Low light plants will grow even in dimly lit rooms.</h5>
 			<div id="plantGroup1" class="plantGroup">
@@ -302,7 +306,7 @@
 									<li> Soil: 60% potting soil, 40% bark or perlite.</li>
 								</ul>
 							</span>
-							<img src="images/cast-iron-plant.jpg">
+							<img src="images/christmas-cactus.jpg">
 						</div>	
 					</div>
 
@@ -662,7 +666,7 @@
 			<img class="column quarter" src="images/plant-ideas.jpg"/>
 		</div>
 	</div>
-
+</div>
 
 
 
