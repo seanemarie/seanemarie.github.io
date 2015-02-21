@@ -385,6 +385,7 @@ li.on a{
   .navBar ul {display: none;}
   .navBar {position: fixed; top: 0%; background-color: white;}
   .plantGroup .plant, .plantGroup .gap { width: 100%;}
+  .plantSection {height: 2750px; position: relative;}
 } 
 
 /* screen sizes between 769px and 1080px */
